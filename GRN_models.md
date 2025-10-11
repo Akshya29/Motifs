@@ -12,3 +12,13 @@ CLR computes the mutual information (MI) between the expression levels of every 
 # ARACNe
 Like CLR, it computes pairwise mutual between gene expression profiles to identify statistical dependencies. Additionally, ARACNe eliminates the indirect interactions (φ ij = 0) using Data Processing Inequality (DPI), which helps to retain mostly direct regulatory interactions and reduce false positives due to indirect relationships. 
 
+# References
+Huynh-Thu, V. A., Irrthum, A., Wehenkel, L., & Geurts, P. (2010). Inferring regulatory networks from expression data using tree-based methods. PloS one, 5(9), e12776. 
+
+Margolin, A. A., Nemenman, I., Basso, K., Wiggins, C., Stolovitzky, G., Favera, R. D., & Califano, A. (2006). ARACNE: an algorithm for the reconstruction of gene regulatory networks in a mammalian cellular context. BMC bioinformatics, 7(Suppl 1), S7. 
+
+Faith, J. J., Hayete, B., Thaden, J. T., Mogno, I., Wierzbowski, J., Cottarel, G., Kasif, S., Collins, J. J., & Gardner, T. S. (2007). Large-scale mapping and validation of Escherichia coli transcriptional regulation from a compendium of expression profiles. PLoS biology, 5(1), e8. 
+
+Almeida-Silva, F., & Venancio, T. M. (2025). Gene regulatory network inference. BioNERO vignette 02. Retrieved from http://bioconductor.org/packages/devel/bioc/vignettes/BioNERO/inst/doc/vignette_02_GRN_inference.html
+
+
