@@ -1,0 +1,19 @@
+# gene expression file
+exp <- read.delim("gene_exp.tpms.tsv", header = TRUE, sep = "\t")
+# remove na's
+exp <- na.omit(exp)
+# Transcription factor list
+tf <- read.csv("tf_list.txt")
+
+# make sure the list is unique
+tf_list <- unique(tf$GeneID) #GeneID is the header for the tf_list.txt
+
+grn_list_3 <- grn_combined(exp, regulators = tf_list, eps=0, nTrees = 10, remove_zero = FALSE) 
+# eps = 0 means ARACNe only keeps edges where the correlation is unambiguously the strongest — it has no tolerance for close correlations, so it will remove many edges that are nearly as strong
+# nTrees controls the number of trees used by the GENIE3 algorithm, and is kept less accurate for balancing accuracy vs. computation time
+# remove_zero = FALSE, keeps interactions with zero scores in the combined network matrix. This can be useful if you plan to threshold or filter later, or want to retain the full structure before post-processing
+
+# To view results
+#head(grn_list$genie3)
+#head(grn_list$aracne)
+#head(grn_list$clr)
