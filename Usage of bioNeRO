@@ -13,7 +13,12 @@ grn_list_3 <- grn_combined(exp, regulators = tf_list, eps=0, nTrees = 10, remove
 # nTrees controls the number of trees used by the GENIE3 algorithm, and is kept less accurate for balancing accuracy vs. computation time
 # remove_zero = FALSE, keeps interactions with zero scores in the combined network matrix. This can be useful if you plan to threshold or filter later, or want to retain the full structure before post-processing
 
+# make a header "GeneID"
+colnames(tf_ID) <- c("GeneID")
+
 # To view results
 #head(grn_list$genie3)
 #head(grn_list$aracne)
 #head(grn_list$clr)
+
+
