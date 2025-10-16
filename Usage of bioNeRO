@@ -1,7 +1,13 @@
 # gene expression file
-exp <- read.delim("gene_exp.tpms.tsv", header = TRUE, sep = "\t")
-# remove na's
-exp <- na.omit(exp)
+exp <- read.delim("E-GEOD-110315_eQTL_gene_exp.tpms.tsv", 
+                  header = TRUE, 
+                  sep = "\t", 
+                  comment.char = "#", 
+                  stringsAsFactors = FALSE, 
+                  check.names = FALSE)
+
+exp <- na.omit(exp) #remove nas
+
 # Transcription factor list
 tf <- read.csv("tf_list.txt")
 
