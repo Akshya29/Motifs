@@ -17,8 +17,14 @@ grn_list_3 <- grn_combined(exp, regulators = tf_list, eps=0, nTrees = 10, remove
 colnames(tf_ID) <- c("GeneID")
 
 # To view results
-#head(grn_list$genie3)
-#head(grn_list$aracne)
-#head(grn_list$clr)
+head(grn_list$genie3)
+head(grn_list$aracne)
+head(grn_list$clr)
 
+# to compute the GRN in separate models
+genie3 <- grn_infer(
+    exp, 
+    method = "genie3", # or any other model
+    regulators = tf_list, 
+    nTrees = 10)
 
