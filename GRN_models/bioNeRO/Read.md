@@ -12,7 +12,7 @@ CLR computes the mutual information (MI) between the expression levels of every 
 # ARACNe
 Like CLR, it computes pairwise mutual between gene expression profiles to identify statistical dependencies. Additionally, ARACNe eliminates the indirect interactions (φ ij = 0) using Data Processing Inequality (DPI), which helps to retain mostly direct regulatory interactions and reduce false positives due to indirect relationships- but is not perfect. 
 
-Both ARACNE and CLR rely on pairwise statistical relationships and therefore cannot, on their own, reliably distinguish between direct and indirect regulatory interactions or capture more complex multivariate dependencies. As such, they are best used as an initial step or in combination with other methods to improve network inference accuracy.
+However, both ARACNE and CLR rely on pairwise statistical relationships and therefore cannot, on their own, reliably distinguish between direct and indirect regulatory interactions or capture more complex multivariate dependencies. As such, they are best used as an initial step or in combination with other methods to improve network inference accuracy.
 
 # References
 Huynh-Thu, V. A., Irrthum, A., Wehenkel, L., & Geurts, P. (2010). Inferring regulatory networks from expression data using tree-based methods. PloS one, 5(9), e12776. 
