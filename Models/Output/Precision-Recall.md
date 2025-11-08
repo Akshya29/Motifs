@@ -6,4 +6,4 @@ Short description of the project.
 
 Preview of the ensemble recall plot:
 
-![Ensemble recall](EnsemGRN/Models/Output/Precision-Recall.md/ensemble%20recall.png)
+![Description](EnsemGRN/Models/Output/ensemble_precision.md/ensemble_precision.png)
