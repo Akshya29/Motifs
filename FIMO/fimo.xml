@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="5.5.7" release="Wed Jun 19 13:59:04 2024 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>fimo --oc fimo_output_ACR_1 /scratch/user/s4849428/tmp/Zma_TF_binding_motifs.meme /scratch/user/s4849428/tmp/merged_output.fa</command-line>
+<settings>
+<setting name="output directory">fimo_output_ACR_1</setting>
+<setting name="MEME file name">/scratch/user/s4849428/tmp/Zma_TF_binding_motifs.meme</setting>
+<setting name="sequence file name">/scratch/user/s4849428/tmp/merged_output.fa</setting>
+<setting name="background file name">--nrdb--</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">2</setting>
+</settings>
+<sequence-data num-sequences="239600" num-residues="128184049" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="AC187157.4_FG005" alt="MP00200" width="15" best-possible-match="AAAAGTAATGATTAC"/>
+<motif name="AC198403.3_FG001" alt="MP00227" width="20" best-possible-match="CACCGCCGCCGCCACCGCCA"/>
+<motif name="AC198725.4_FG009" alt="MP00440" width="13" best-possible-match="ATCGTTGACTTTT"/>
+<motif name="AC203535.4_FG001" alt="MP00028" width="11" best-possible-match="GGCTCAGCGCG"/>
+<motif name="AC205574.3_FG006" alt="MP00009" width="10" best-possible-match="TGGGGACCAC"/>
+<motif name="AC207656.3_FG002" alt="MP00461" width="21" best-possible-match="TTTACGTTTTTGGCGGGAAAA"/>
+<motif name="AC216247.3_FG001" alt="MP00187" width="15" best-possible-match="AGAAGCTTCTAGAAG"/>
+<motif name="AC233865.1_FG003" alt="MP00363" width="17" best-possible-match="TACGTGTGGAACAAGCA"/>
+<motif name="AC233943.1_FG002" alt="MP00581" width="21" best-possible-match="TCCGCCGCCGCCTCCGCCGCC"/>
+<motif name="AC233960.1_FG003" alt="MP00544" width="14" best-possible-match="AAAAGAATATTCTT"/>
+<motif name="AC234520.1_FG003" alt="MP00193" width="11" best-possible-match="ATCAAAGATTC"/>
+<motif name="GRMZM2G001930" alt="MP00084" width="8" best-possible-match="GCACGTGC"/>
+<motif name="GRMZM2G002128" alt="MP00296" width="21" best-possible-match="AAAAAATTGGATAAGGATAAG"/>
+<motif name="GRMZM2G003514" alt="MP00315" width="19" best-possible-match="TTTCCAAAAAAGGAAAAAA"/>
+<motif name="GRMZM2G003944" alt="MP00614" width="10" best-possible-match="GGGGCCCACA"/>
+<motif name="GRMZM2G004531" alt="MP00179" width="19" best-possible-match="AGGTTTCTTGTTGAACAAG"/>
+<motif name="GRMZM2G006578" alt="MP00491" width="15" best-possible-match="GATGATGACGTCACT"/>
+<motif name="GRMZM2G006752" alt="MP00649" width="11" best-possible-match="GAATGTATCTG"/>
+<motif name="GRMZM2G008374" alt="MP00277" width="18" best-possible-match="TTACGTGTGGAACAAGTA"/>
+<motif name="GRMZM2G009060" alt="MP00331" width="14" best-possible-match="AAAAGAATCTTCTT"/>
+<motif name="GRMZM2G009406" alt="MP00672" width="6" best-possible-match="AAAGCA"/>
+<motif name="GRMZM2G010100" alt="MP00521" width="15" best-possible-match="CCGCCGCCGCCGGCG"/>
+<motif name="GRMZM2G010920" alt="MP00354" width="9" best-possible-match="AAGAAAACA"/>
+<motif name="GRMZM2G011357" alt="MP00673" width="12" best-possible-match="TTTTCCTTTTCG"/>
+<motif name="GRMZM2G011932" alt="MP00318" width="15" best-possible-match="TGCCACGTCAGCATT"/>
+<motif name="GRMZM2G013391" alt="MP00167" width="11" best-possible-match="AAAAGTCAACG"/>
+<motif name="GRMZM2G014653" alt="MP00121" width="22" best-possible-match="TACGTGTATAATTTGTCTTCTT"/>
+<motif name="GRMZM2G014902" alt="MP00654" width="9" best-possible-match="AAGATATTT"/>
+<motif name="GRMZM2G015281" alt="MP00156" width="20" best-possible-match="CCACCACCACCTCCACCGAC"/>
+<motif name="GRMZM2G016020" alt="MP00668" width="9" best-possible-match="ACCTACCCG"/>
+<motif name="GRMZM2G016150" alt="MP00040" width="12" best-possible-match="TGCTGACGTGGC"/>
+<motif name="GRMZM2G017087" alt="MP00675" width="20" best-possible-match="CTCTCTCTCCCTGCCCCTGC"/>
+<motif name="GRMZM2G017187" alt="MP00097" width="8" best-possible-match="ACCGACAT"/>
+<motif name="GRMZM2G017349" alt="MP00035" width="9" best-possible-match="CCCACGTGC"/>
+<motif name="GRMZM2G017470" alt="MP00295" width="15" best-possible-match="TTTTTTTACTTTTTG"/>
+<motif name="GRMZM2G018398" alt="MP00204" width="21" best-possible-match="CGGCGGAAATGGCGGCGGAGG"/>
+<motif name="GRMZM2G018721" alt="MP00067" width="10" best-possible-match="AAAGTCAACG"/>
+<motif name="GRMZM2G020799" alt="MP00647" width="8" best-possible-match="TGACGTGG"/>
+<motif name="GRMZM2G020805" alt="MP00006" width="8" best-possible-match="GGGCCCAC"/>
+<motif name="GRMZM2G021339" alt="MP00323" width="11" best-possible-match="TCAATAATTGA"/>
+<motif name="GRMZM2G021790" alt="MP00441" width="17" best-possible-match="GCGGCGGCGGCGGCGGC"/>
+<motif name="GRMZM2G023708" alt="MP00509" width="21" best-possible-match="TCCGCCGCCGCCACCGCCGCC"/>
+<motif name="GRMZM2G025642" alt="MP00266" width="13" best-possible-match="CTTGTATTTCACG"/>
+<motif name="GRMZM2G025812" alt="MP00019" width="10" best-possible-match="GTGACGTCAC"/>
+<motif name="GRMZM2G026643" alt="MP00421" width="11" best-possible-match="GCATTAATTAC"/>
+<motif name="GRMZM2G028151" alt="MP00088" width="21" best-possible-match="TGGCACAGTTCCCGAGGTGAA"/>
+<motif name="GRMZM2G029323" alt="MP00026" width="10" best-possible-match="CACCGACCAT"/>
+<motif name="GRMZM2G030710" alt="MP00021" width="10" best-possible-match="TTGTCGGAAA"/>
+<motif name="GRMZM2G030762" alt="MP00660" width="8" best-possible-match="CCACGTGC"/>
+<motif name="GRMZM2G030877" alt="MP00131" width="11" best-possible-match="GATGACGTCAT"/>
+<motif name="GRMZM2G031963" alt="MP00071" width="8" best-possible-match="CGGTCAAC"/>
+<motif name="GRMZM2G033413" alt="MP00294" width="18" best-possible-match="AAATGGTGACGTGGCAGT"/>
+<motif name="GRMZM2G033570" alt="MP00367" width="15" best-possible-match="GTCTAGATTCAATGA"/>
+<motif name="GRMZM2G034110" alt="MP00551" width="15" best-possible-match="ATAACCTTATCCATA"/>
+<motif name="GRMZM2G034563" alt="MP00107" width="8" best-possible-match="GAATATTC"/>
+<motif name="GRMZM2G034638" alt="MP00636" width="9" best-possible-match="GGGGCCCAC"/>
+<motif name="GRMZM2G034840" alt="MP00153" width="10" best-possible-match="GCCGACAAAA"/>
+<motif name="GRMZM2G035701" alt="MP00382" width="15" best-possible-match="ATATACATGCATGCA"/>
+<motif name="GRMZM2G037128" alt="MP00651" width="10" best-possible-match="ATATTTACCG"/>
+<motif name="GRMZM2G038252" alt="MP00669" width="8" best-possible-match="TCAATCAA"/>
+<motif name="GRMZM2G038291" alt="MP00487" width="11" best-possible-match="TAGTGAAGTTG"/>
+<motif name="GRMZM2G040924" alt="MP00114" width="15" best-possible-match="AAGTTGGTAGGTGAG"/>
+<motif name="GRMZM2G041462" alt="MP00650" width="10" best-possible-match="AACCAATCAA"/>
+<motif name="GRMZM2G042494" alt="MP00221" width="11" best-possible-match="ACACGTAACTT"/>
+<motif name="GRMZM2G042756" alt="MP00452" width="15" best-possible-match="TCTTTGCCGACATCA"/>
+<motif name="GRMZM2G044576" alt="MP00048" width="11" best-possible-match="TCTAGATCTGT"/>
+<motif name="GRMZM2G045748" alt="MP00386" width="15" best-possible-match="TTCCCAACCACCAAC"/>
+<motif name="GRMZM2G046885" alt="MP00272" width="15" best-possible-match="ACTTTCCTTTTTTGG"/>
+<motif name="GRMZM2G047370" alt="MP00640" width="10" best-possible-match="TTAACCAGAG"/>
+<motif name="GRMZM2G047448" alt="MP00265" width="11" best-possible-match="TCATTCATTCA"/>
+<motif name="GRMZM2G047626" alt="MP00600" width="10" best-possible-match="AGTTAGGTAA"/>
+<motif name="GRMZM2G048450" alt="MP00561" width="13" best-possible-match="ATCGTTGACTTTT"/>
+<motif name="GRMZM2G049695" alt="MP00565" width="15" best-possible-match="AACCTTATCCATAAA"/>
+<motif name="GRMZM2G050305" alt="MP00479" width="15" best-possible-match="AATAAGTTTGGTAAA"/>
+<motif name="GRMZM2G050550" alt="MP00596" width="19" best-possible-match="TTTACGGTTATTTCCGTTA"/>
+<motif name="GRMZM2G050939" alt="MP00229" width="19" best-possible-match="CCTCCTCCTCCTCCTCCTC"/>
+<motif name="GRMZM2G052606" alt="MP00599" width="10" best-possible-match="AGTTAGGTAG"/>
+<motif name="GRMZM2G053298" alt="MP00154" width="15" best-possible-match="GCAGCAGCAGCAGCA"/>
+<motif name="GRMZM2G054125" alt="MP00506" width="13" best-possible-match="AAAAGTCAACGAC"/>
+<motif name="GRMZM2G056600" alt="MP00051" width="8" best-possible-match="TAATAATT"/>
+<motif name="GRMZM2G057116" alt="MP00531" width="13" best-possible-match="CTTTGACTTTTTT"/>
+<motif name="GRMZM2G057386" alt="MP00549" width="15" best-possible-match="CCACCGCCGCCGCCA"/>
+<motif name="GRMZM2G057408" alt="MP00625" width="9" best-possible-match="TAGATATTT"/>
+<motif name="GRMZM2G058479" alt="MP00369" width="15" best-possible-match="TCATCATCATCATCA"/>
+<motif name="GRMZM2G058518" alt="MP00459" width="15" best-possible-match="CTTCTTCTTCACGCT"/>
+<motif name="GRMZM2G060517" alt="MP00029" width="10" best-possible-match="CCGCCGCCAT"/>
+<motif name="GRMZM2G061734" alt="MP00555" width="11" best-possible-match="ATTGTACGGAT"/>
+<motif name="GRMZM2G062244" alt="MP00473" width="21" best-possible-match="AAACCAATAATTGAAAATTAT"/>
+<motif name="GRMZM2G064197" alt="MP00378" width="8" best-possible-match="AGAATCTG"/>
+<motif name="GRMZM2G065374" alt="MP00082" width="8" best-possible-match="TCACGTGG"/>
+<motif name="GRMZM2G065496" alt="MP00468" width="21" best-possible-match="TTTACGTTTTTGGCGGGAAAA"/>
+<motif name="GRMZM2G066158" alt="MP00645" width="8" best-possible-match="CGCCGCCA"/>
+<motif name="GRMZM2G067624" alt="MP00634" width="10" best-possible-match="TTGTACGGAC"/>
+<motif name="GRMZM2G067702" alt="MP00014" width="14" best-possible-match="GTAAGATTCGCTGA"/>
+<motif name="GRMZM2G069047" alt="MP00321" width="17" best-possible-match="TAACGTAAAATTCAAGC"/>
+<motif name="GRMZM2G069274" alt="MP00617" width="10" best-possible-match="TATCAATCAA"/>
+<motif name="GRMZM2G069486" alt="MP00543" width="15" best-possible-match="TCACACGTGTGAACT"/>
+<motif name="GRMZM2G072926" alt="MP00312" width="15" best-possible-match="AATTGTCGGTGGAGT"/>
+<motif name="GRMZM2G074373" alt="MP00291" width="15" best-possible-match="AATGGTCACGTGGCA"/>
+<motif name="GRMZM2G075499" alt="MP00309" width="15" best-possible-match="CCGGAAAATCCGGAG"/>
+<motif name="GRMZM2G075956" alt="MP00196" width="15" best-possible-match="ACCTTCCCCAGATAA"/>
+<motif name="GRMZM2G076636" alt="MP00100" width="8" best-possible-match="GCACGTGC"/>
+<motif name="GRMZM2G079653" alt="MP00194" width="15" best-possible-match="TGGCGGCGGCGGTGG"/>
+<motif name="GRMZM2G081782" alt="MP00306" width="7" best-possible-match="TTGAAAA"/>
+<motif name="GRMZM2G081919" alt="MP00482" width="15" best-possible-match="AAAATATGACCGTTG"/>
+<motif name="GRMZM2G082709" alt="MP00439" width="15" best-possible-match="TACTTGAAGATGAAG"/>
+<motif name="GRMZM2G084799" alt="MP00627" width="10" best-possible-match="TTACCTACCG"/>
+<motif name="GRMZM2G087741" alt="MP00670" width="10" best-possible-match="AGTGACGGCA"/>
+<motif name="GRMZM2G087804" alt="MP00022" width="10" best-possible-match="GAGAATCTGT"/>
+<motif name="GRMZM2G089501" alt="MP00219" width="15" best-possible-match="CACGTGACTTTCACG"/>
+<motif name="GRMZM2G092214" alt="MP00384" width="21" best-possible-match="AAAAAAGCATGTGGGACCCAC"/>
+<motif name="GRMZM2G092517" alt="MP00283" width="17" best-possible-match="CGGCGGAAATTGCGGCG"/>
+<motif name="GRMZM2G093595" alt="MP00674" width="10" best-possible-match="CGGTGCCCCC"/>
+<motif name="GRMZM2G093725" alt="MP00295" width="15" best-possible-match="TTTTTTTACTTTTTG"/>
+<motif name="GRMZM2G095239" alt="MP00607" width="9" best-possible-match="TTTAGGTTG"/>
+<motif name="GRMZM2G095904" alt="MP00375" width="21" best-possible-match="CTCCAAAATCTCCACCAACCA"/>
+<motif name="GRMZM2G096358" alt="MP00216" width="15" best-possible-match="AAAAAAGTTAGGTAG"/>
+<motif name="GRMZM2G097081" alt="MP00151" width="14" best-possible-match="ATGGACGGTGGAGG"/>
+<motif name="GRMZM2G097182" alt="MP00557" width="13" best-possible-match="TGATGTCGGCGAA"/>
+<motif name="GRMZM2G098813" alt="MP00095" width="19" best-possible-match="TATTGACCGGCGGTCAATA"/>
+<motif name="GRMZM2G099144" alt="MP00431" width="21" best-possible-match="GGTAACGTAAAATACAAGCAA"/>
+<motif name="GRMZM2G099797" alt="MP00054" width="10" best-possible-match="GCGAATCTTT"/>
+<motif name="GRMZM2G100593" alt="MP00537" width="18" best-possible-match="TGCCGTGATCTTCACGTT"/>
+<motif name="GRMZM2G101499" alt="MP00090" width="16" best-possible-match="TTTTTTGTACCTTATT"/>
+<motif name="GRMZM2G102218" alt="MP00220" width="8" best-possible-match="TATGATTA"/>
+<motif name="GRMZM2G102514" alt="MP00237" width="20" best-possible-match="CCACACGTGCGACTTTTTTT"/>
+<motif name="GRMZM2G102583" alt="MP00464" width="14" best-possible-match="AGCGTTGACTTTTT"/>
+<motif name="GRMZM2G104074" alt="MP00250" width="21" best-possible-match="GGTAGCGTGAAATTCAAGCAA"/>
+<motif name="GRMZM2G104246" alt="MP00045" width="10" best-possible-match="AATTTGAATT"/>
+<motif name="GRMZM2G105348" alt="MP00379" width="11" best-possible-match="CTAGAAGCTTC"/>
+<motif name="GRMZM2G107031" alt="MP00316" width="21" best-possible-match="CCATTTGCCGTGGGTCCCACC"/>
+<motif name="GRMZM2G108424" alt="MP00652" width="10" best-possible-match="AACCCTAGAT"/>
+<motif name="GRMZM2G108959" alt="MP00132" width="19" best-possible-match="CTTTTCCAACCACCTTTTT"/>
+<motif name="GRMZM2G109354" alt="MP00604" width="10" best-possible-match="CCGTACGGCA"/>
+<motif name="GRMZM2G110153" alt="MP00080" width="14" best-possible-match="CCAAAAAAGGAAAA"/>
+<motif name="GRMZM2G110913" alt="MP00314" width="19" best-possible-match="TTTCCTCCGGATTTTCCGG"/>
+<motif name="GRMZM2G111354" alt="MP00539" width="14" best-possible-match="TCGTTGACTTTTTT"/>
+<motif name="GRMZM2G111415" alt="MP00526" width="19" best-possible-match="CGGAGGTGGCGGCGGAGGA"/>
+<motif name="GRMZM2G112548" alt="MP00310" width="20" best-possible-match="TGCCGTGATATCTACGCTAC"/>
+<motif name="GRMZM2G113779" alt="MP00359" width="12" best-possible-match="AATTGTACGGAC"/>
+<motif name="GRMZM2G115456" alt="MP00514" width="12" best-possible-match="GAAGCTTCTAGA"/>
+<motif name="GRMZM2G118250" alt="MP00211" width="21" best-possible-match="TCTCCGCCGCCTTCTCCGCCG"/>
+<motif name="GRMZM2G118690" alt="MP00540" width="21" best-possible-match="CTCTCTCTCTCTCTCTCTCTC"/>
+<motif name="GRMZM2G120151" alt="MP00008" width="8" best-possible-match="GGGACCAC"/>
+<motif name="GRMZM2G120320" alt="MP00251" width="15" best-possible-match="AACGTTGACTTTTTT"/>
+<motif name="GRMZM2G123909" alt="MP00110" width="13" best-possible-match="TCGATCGGATTAG"/>
+<motif name="GRMZM2G124540" alt="MP00475" width="11" best-possible-match="AAAAAGATTCC"/>
+<motif name="GRMZM2G125243" alt="MP00492" width="20" best-possible-match="AATGACGTCATCATTATTGT"/>
+<motif name="GRMZM2G125777" alt="MP00059" width="12" best-possible-match="TAACACGCCACA"/>
+<motif name="GRMZM2G125969" alt="MP00371" width="15" best-possible-match="AGAAGCTTCTAGAAG"/>
+<motif name="GRMZM2G126646" alt="MP00232" width="11" best-possible-match="GCATTAAATGC"/>
+<motif name="GRMZM2G127064" alt="MP00304" width="12" best-possible-match="AGCGTTGACTTT"/>
+<motif name="GRMZM2G127490" alt="MP00134" width="15" best-possible-match="TCCACCTACCACCAC"/>
+<motif name="GRMZM2G129034" alt="MP00605" width="13" best-possible-match="CCAAAAATGGAAA"/>
+<motif name="GRMZM2G129872" alt="MP00668" width="9" best-possible-match="ACCTACCCG"/>
+<motif name="GRMZM2G131961" alt="MP00586" width="15" best-possible-match="AATGATGACGTCATC"/>
+<motif name="GRMZM2G132868" alt="MP00648" width="8" best-possible-match="ACACGTGT"/>
+<motif name="GRMZM2G133398" alt="MP00083" width="9" best-possible-match="CTGCATGCA"/>
+<motif name="GRMZM2G135381" alt="MP00530" width="13" best-possible-match="GATCCAGATCTAA"/>
+<motif name="GRMZM2G135447" alt="MP00671" width="8" best-possible-match="GCTGTCAC"/>
+<motif name="GRMZM2G137046" alt="MP00117" width="15" best-possible-match="AATGATGACGTGGCC"/>
+<motif name="GRMZM2G137341" alt="MP00644" width="10" best-possible-match="ATGCCGACAT"/>
+<motif name="GRMZM2G137358" alt="MP00207" width="21" best-possible-match="GAGGTGGCACGTGGCATTCAC"/>
+<motif name="GRMZM2G138396" alt="MP00469" width="15" best-possible-match="GAAATTGCGGCGGCG"/>
+<motif name="GRMZM2G138421" alt="MP00633" width="9" best-possible-match="TTGTACGGA"/>
+<motif name="GRMZM2G138967" alt="MP00554" width="27" best-possible-match="CATCATCATCATCATCATCATCATCAT"/>
+<motif name="GRMZM2G139073" alt="MP00077" width="15" best-possible-match="TTCCAAAAATGGAAA"/>
+<motif name="GRMZM2G139688" alt="MP00348" width="13" best-possible-match="ACCGTAACCGTAA"/>
+<motif name="GRMZM2G139700" alt="MP00562" width="19" best-possible-match="CGTGTGGAACAAGTAACCT"/>
+<motif name="GRMZM2G139963" alt="MP00225" width="11" best-possible-match="TCAATAATTAA"/>
+<motif name="GRMZM2G140033" alt="MP00487" width="11" best-possible-match="TAGTGAAGTTG"/>
+<motif name="GRMZM2G140694" alt="MP00580" width="21" best-possible-match="AAAAAAAAGAAAAAGTAAAAA"/>
+<motif name="GRMZM2G142179" alt="MP00456" width="21" best-possible-match="CCTCCGCCGCCGCCGCCGCCG"/>
+<motif name="GRMZM2G142751" alt="MP00396" width="20" best-possible-match="ACAGAGGATGTGGGACCCAC"/>
+<motif name="GRMZM2G143723" alt="MP00206" width="18" best-possible-match="CACAAAACGACAAAAAAA"/>
+<motif name="GRMZM2G144275" alt="MP00660" width="8" best-possible-match="CCACGTGC"/>
+<motif name="GRMZM2G144744" alt="MP00611" width="20" best-possible-match="AAGAAAAAGACAAAAAAAAA"/>
+<motif name="GRMZM2G145444" alt="MP00653" width="10" best-possible-match="TGACCGGTAT"/>
+<motif name="GRMZM2G148467" alt="MP00290" width="8" best-possible-match="TCCGTACA"/>
+<motif name="GRMZM2G149040" alt="MP00303" width="11" best-possible-match="ACCAGCTGTCA"/>
+<motif name="GRMZM2G149958" alt="MP00500" width="13" best-possible-match="AATATGGATAAGG"/>
+<motif name="GRMZM2G153454" alt="MP00646" width="9" best-possible-match="GCCACTTGC"/>
+<motif name="GRMZM2G153754" alt="MP00624" width="13" best-possible-match="AAAAATTTTAAAA"/>
+<motif name="GRMZM2G156756" alt="MP00060" width="8" best-possible-match="TGTACGGT"/>
+<motif name="GRMZM2G159119" alt="MP00160" width="11" best-possible-match="GGAATCTTCTA"/>
+<motif name="GRMZM2G159134" alt="MP00409" width="15" best-possible-match="AATGGACACGTGGCA"/>
+<motif name="GRMZM2G159500" alt="MP00518" width="19" best-possible-match="TAACGTGTAGAACAAGTAA"/>
+<motif name="GRMZM2G159547" alt="MP00180" width="21" best-possible-match="TTGTTTAAGGTAGGTGAACAA"/>
+<motif name="GRMZM2G159937" alt="MP00099" width="8" best-possible-match="GCACGTGC"/>
+<motif name="GRMZM2G162481" alt="MP00330" width="11" best-possible-match="AGTTAATTAAT"/>
+<motif name="GRMZM2G162749" alt="MP00046" width="10" best-possible-match="AAAAAAGTGA"/>
+<motif name="GRMZM2G162840" alt="MP00288" width="18" best-possible-match="TAAAAAATATACCCTAAA"/>
+<motif name="GRMZM2G163054" alt="MP00531" width="13" best-possible-match="CTTTGACTTTTTT"/>
+<motif name="GRMZM2G164735" alt="MP00253" width="24" best-possible-match="GAGAGAGAGAGAGAGAGAGAGAGA"/>
+<motif name="GRMZM2G164909" alt="MP00432" width="14" best-possible-match="TTCTAGAAGCTTCT"/>
+<motif name="GRMZM2G165042" alt="MP00074" width="14" best-possible-match="AGAAGGTCACGTGG"/>
+<motif name="GRMZM2G166721" alt="MP00460" width="15" best-possible-match="AGCGTGAAGAAGAAG"/>
+<motif name="GRMZM2G166946" alt="MP00065" width="8" best-possible-match="GGGACCAC"/>
+<motif name="GRMZM2G169270" alt="MP00155" width="11" best-possible-match="TCCGTACAATT"/>
+<motif name="GRMZM2G169654" alt="MP00025" width="8" best-possible-match="TATGTTGC"/>
+<motif name="GRMZM2G171073" alt="MP00592" width="17" best-possible-match="AAGAAAACGACAAAAAA"/>
+<motif name="GRMZM2G171365" alt="MP00076" width="21" best-possible-match="TTTTTTTTTTTTTTTTTTTTT"/>
+<motif name="GRMZM2G172327" alt="MP00350" width="21" best-possible-match="GTAGTGGTAATGTTAGGTGGA"/>
+<motif name="GRMZM2G173633" alt="MP00564" width="15" best-possible-match="AAAAATTAGGTGAAA"/>
+<motif name="GRMZM2G173943" alt="MP00252" width="13" best-possible-match="AAAAGAATATTCC"/>
+<motif name="GRMZM2G177220" alt="MP00010" width="10" best-possible-match="AAAGATACGG"/>
+<motif name="GRMZM2G178603" alt="MP00655" width="10" best-possible-match="GTGGGCCCAC"/>
+<motif name="GRMZM2G178998" alt="MP00136" width="15" best-possible-match="CGTAAAAAACAAGCA"/>
+<motif name="GRMZM2G179677" alt="MP00256" width="17" best-possible-match="CACAAAACGACAAAAAA"/>
+<motif name="GRMZM2G179885" alt="MP00361" width="17" best-possible-match="CTTGTTCCACAAGAAAC"/>
+<motif name="GRMZM2G180319" alt="MP00128" width="15" best-possible-match="CCGAAAAAATCGGAG"/>
+<motif name="GRMZM2G301860" alt="MP00276" width="17" best-possible-match="AATTGTCGGTGGTGGCA"/>
+<motif name="GRMZM2G303463" alt="MP00101" width="8" best-possible-match="GCACGTGC"/>
+<motif name="GRMZM2G307119" alt="MP00520" width="15" best-possible-match="CCGCCGCCGCCGCCA"/>
+<motif name="GRMZM2G307588" alt="MP00307" width="11" best-possible-match="ATTGTACGGAT"/>
+<motif name="GRMZM2G310368" alt="MP00542" width="21" best-possible-match="CGGCGGCGGTGGCGGCGGCGG"/>
+<motif name="GRMZM2G320287" alt="MP00403" width="15" best-possible-match="CACAAAACGACAAAA"/>
+<motif name="GRMZM2G325850" alt="MP00472" width="11" best-possible-match="CAGATCGGATT"/>
+<motif name="GRMZM2G341747" alt="MP00042" width="9" best-possible-match="CCGCGTTAC"/>
+<motif name="GRMZM2G348238" alt="MP00261" width="11" best-possible-match="AGAATATTCCA"/>
+<motif name="GRMZM2G350165" alt="MP00659" width="10" best-possible-match="CGCACGTGCG"/>
+<motif name="GRMZM2G359952" alt="MP00609" width="19" best-possible-match="TTTTTTCCATTTTTGGTAA"/>
+<motif name="GRMZM2G361611" alt="MP00470" width="15" best-possible-match="TGCCACGTCAGCATC"/>
+<motif name="GRMZM2G368838" alt="MP00558" width="15" best-possible-match="TTTTGTCGGCAAAGG"/>
+<motif name="GRMZM2G376255" alt="MP00411" width="11" best-possible-match="CCGCCACCGCC"/>
+<motif name="GRMZM2G377217" alt="MP00618" width="10" best-possible-match="CCGTTGACCG"/>
+<motif name="GRMZM2G378580" alt="MP00574" width="10" best-possible-match="ATCCGACAAA"/>
+<motif name="GRMZM2G378665" alt="MP00397" width="21" best-possible-match="AAAAAAATTTTCCCGCCAAAA"/>
+<motif name="GRMZM2G381441" alt="MP00374" width="28" best-possible-match="CCGCCTCCGCCGCCACCACCGCCGCCGC"/>
+<motif name="GRMZM2G382350" alt="MP00066" width="8" best-possible-match="CGGTCAAC"/>
+<motif name="GRMZM2G387528" alt="MP00081" width="10" best-possible-match="AGCCACGTGA"/>
+<motif name="GRMZM2G394941" alt="MP00570" width="14" best-possible-match="CAAAAAGTTAAAAA"/>
+<motif name="GRMZM2G398506" alt="MP00455" width="13" best-possible-match="AACGTTGACTATT"/>
+<motif name="GRMZM2G406204" alt="MP00212" width="16" best-possible-match="CTTGTTCTACAAGTAA"/>
+<motif name="GRMZM2G414159" alt="MP00244" width="14" best-possible-match="TTTTTTACCGTTTT"/>
+<motif name="GRMZM2G428555" alt="MP00222" width="13" best-possible-match="TTAATTACCGTTA"/>
+<motif name="GRMZM2G430522" alt="MP00241" width="18" best-possible-match="ACGTGTAAAACAAGCAAC"/>
+<motif name="GRMZM2G432583" alt="MP00070" width="8" best-possible-match="TGGTCAAC"/>
+<motif name="GRMZM2G444748" alt="MP00239" width="15" best-possible-match="GATGCTGACGTGGCA"/>
+<motif name="GRMZM2G445944" alt="MP00524" width="11" best-possible-match="GTGGGACCCAC"/>
+<motif name="GRMZM2G448605" alt="MP00428" width="21" best-possible-match="TTTTAATTAGCGTTGACTTTT"/>
+<motif name="GRMZM2G449681" alt="MP00299" width="11" best-possible-match="AAAAGTCAACG"/>
+<motif name="GRMZM2G453571" alt="MP00168" width="11" best-possible-match="AAAAGTCAACG"/>
+<motif name="GRMZM2G455869" alt="MP00145" width="11" best-possible-match="CTTTACCGTTA"/>
+<motif name="GRMZM2G456568" alt="MP00583" width="21" best-possible-match="GGTAACTTGCTGAACAAGTTA"/>
+<motif name="GRMZM2G477238" alt="MP00297" width="11" best-possible-match="AAAAGAATGTT"/>
+<motif name="GRMZM2G479885" alt="MP00419" width="15" best-possible-match="GATGCTGACGTGGCA"/>
+<motif name="GRMZM2G553379" alt="MP00096" width="12" best-possible-match="CCAAAAATGGAA"/>
+<motif name="GRMZM5G812774" alt="MP00248" width="11" best-possible-match="CGCACGTGTGG"/>
+<motif name="GRMZM5G813651" alt="MP00257" width="19" best-possible-match="CCTGTTTTACACGGCATCT"/>
+<motif name="GRMZM5G821024" alt="MP00184" width="12" best-possible-match="TTGACAGCTGTA"/>
+<motif name="GRMZM5G823157" alt="MP00171" width="13" best-possible-match="AAAAGTCAACGAT"/>
+<motif name="GRMZM5G828179" alt="MP00125" width="20" best-possible-match="CAGAAAACGACAAAAAAAAA"/>
+<motif name="GRMZM5G833032" alt="MP00338" width="12" best-possible-match="AGATATTTTTTT"/>
+<motif name="GRMZM5G833253" alt="MP00249" width="21" best-possible-match="CAACTACTCCACCAACCCCCA"/>
+<motif name="GRMZM5G853066" alt="MP00553" width="6" best-possible-match="TGGTGA"/>
+<motif name="GRMZM5G862109" alt="MP00615" width="10" best-possible-match="ACCTCGTACC"/>
+<motif name="GRMZM5G870592" alt="MP00442" width="15" best-possible-match="AAAATGTAACGGATA"/>
+<motif name="GRMZM6G039492" alt="MP00107" width="8" best-possible-match="GAATATTC"/>
+<background source="--nrdb--">
+<value letter="A">0.275</value>
+<value letter="C">0.225</value>
+<value letter="G">0.225</value>
+<value letter="T">0.275</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>
