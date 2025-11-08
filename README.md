@@ -8,7 +8,8 @@ Gene regulatory networks (GRNs) were inferred using GENIE3, TIGRESS, ARACNe, and
 
 Three models —Random Forest, XGBoost, and an Ensemble model (averaged from both models) — were built using these GRNs as features to predict the best/accurate GRNs.
 
-REFERENCES
+# REFERENCES
+
 Crisp, P. A., Marand, A. P., Noshay, J. M., Zhou, P., Lu, Z., Schmitz, R. J., & Springer, N. M. (2020). Stable unmethylated DNA demarcates expressed genes and their cis-regulatory space in plant genomes. Proceedings of the National Academy of Sciences, 117(38), 23991-24000.
 
 Xu, Q., Wu, L., Luo, Z., Zhang, M., Lai, J., Li, L., Springer, N. M., & Li, Q. (2022). DNA demethylation affects imprinted gene expression in maize endosperm. Genome biology, 23(1), 77.
