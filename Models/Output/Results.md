@@ -1,12 +1,6 @@
 # Network Contribution
 
-![Description](rf.png)
 
-Fig 1. The recall (blue), enrichment (orange), and contribution of each input feature to predicted GRN Edges in RF
-
-![Description](xg.png)
-
-Fig 2. The recall (blue), enrichment (orange), and contribution of each input feature to predicted GRN Edges in XGBoost
 
 
 # Feature Importance
