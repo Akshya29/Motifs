@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="5.5.7" release="Wed Jun 19 13:59:04 2024 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>fimo --oc fimo_output_UMR /scratch/user/s4849428/tmp/Zma_TF_binding_motifs_v5.meme /scratch/user/s4849428/tmp/UMR_with_genes.fa</command-line>
+<settings>
+<setting name="output directory">fimo_output_UMR</setting>
+<setting name="MEME file name">/scratch/user/s4849428/tmp/Zma_TF_binding_motifs_v5.meme</setting>
+<setting name="sequence file name">/scratch/user/s4849428/tmp/UMR_with_genes.fa</setting>
+<setting name="background file name">--nrdb--</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">2</setting>
+</settings>
+<sequence-data num-sequences="39288" num-residues="43152500" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="Zm00001eb337970" alt="" width="15" best-possible-match="AAAAGTAATGATTAC"/>
+<motif name="Zm00001eb159340" alt="" width="13" best-possible-match="ATCGTTGACTTTT"/>
+<motif name="Zm00001eb142770" alt="" width="11" best-possible-match="GGCTCAGCGCG"/>
+<motif name="Zm00001eb120020" alt="" width="10" best-possible-match="TGGGGACCAC"/>
+<motif name="Zm00001eb225570" alt="" width="21" best-possible-match="TTTACGTTTTTGGCGGGAAAA"/>
+<motif name="Zm00001eb017880" alt="" width="15" best-possible-match="AGAAGCTTCTAGAAG"/>
+<motif name="Zm00001eb320830" alt="" width="17" best-possible-match="TACGTGTGGAACAAGCA"/>
+<motif name="Zm00001eb251670" alt="" width="14" best-possible-match="AAAAGAATATTCTT"/>
+<motif name="Zm00001eb030400" alt="" width="11" best-possible-match="ATCAAAGATTC"/>
+<motif name="Zm00001eb024330" alt="" width="8" best-possible-match="GCACGTGC"/>
+<motif name="Zm00001eb288740" alt="" width="21" best-possible-match="AAAAAATTGGATAAGGATAAG"/>
+<motif name="Zm00001eb187330" alt="" width="19" best-possible-match="TTTCCAAAAAAGGAAAAAA"/>
+<motif name="Zm00001eb200970" alt="" width="10" best-possible-match="GGGGCCCACA"/>
+<motif name="Zm00001eb317070" alt="" width="19" best-possible-match="AGGTTTCTTGTTGAACAAG"/>
+<motif name="Zm00001eb316720" alt="" width="15" best-possible-match="GATGATGACGTCACT"/>
+<motif name="Zm00001eb316730" alt="" width="11" best-possible-match="GAATGTATCTG"/>
+<motif name="Zm00001eb102160" alt="" width="18" best-possible-match="TTACGTGTGGAACAAGTA"/>
+<motif name="Zm00001eb015490" alt="" width="14" best-possible-match="AAAAGAATCTTCTT"/>
+<motif name="Zm00001eb101420" alt="" width="6" best-possible-match="AAAGCA"/>
+<motif name="Zm00001eb051660" alt="" width="15" best-possible-match="CCGCCGCCGCCGGCG"/>
+<motif name="Zm00001eb232000" alt="" width="9" best-possible-match="AAGAAAACA"/>
+<motif name="Zm00001eb296340" alt="" width="15" best-possible-match="TGCCACGTCAGCATT"/>
+<motif name="Zm00001eb370960" alt="" width="11" best-possible-match="AAAAGTCAACG"/>
+<motif name="Zm00001eb145580" alt="" width="22" best-possible-match="TACGTGTATAATTTGTCTTCTT"/>
+<motif name="Zm00001eb172470" alt="" width="9" best-possible-match="AAGATATTT"/>
+<motif name="Zm00001eb011550" alt="" width="20" best-possible-match="CCACCACCACCTCCACCGAC"/>
+<motif name="Zm00001eb060910" alt="" width="12" best-possible-match="TGCTGACGTGGC"/>
+<motif name="Zm00001eb055920" alt="" width="20" best-possible-match="CTCTCTCTCCCTGCCCCTGC"/>
+<motif name="Zm00001eb082150" alt="" width="8" best-possible-match="ACCGACAT"/>
+<motif name="Zm00001eb375660" alt="" width="9" best-possible-match="CCCACGTGC"/>
+<motif name="Zm00001eb062640" alt="" width="15" best-possible-match="TTTTTTTACTTTTTG"/>
+<motif name="Zm00001eb192960" alt="" width="21" best-possible-match="CGGCGGAAATGGCGGCGGAGG"/>
+<motif name="Zm00001eb298580" alt="" width="10" best-possible-match="AAAGTCAACG"/>
+<motif name="Zm00001eb253370" alt="" width="8" best-possible-match="TGACGTGG"/>
+<motif name="Zm00001eb117560" alt="" width="8" best-possible-match="GGGCCCAC"/>
+<motif name="Zm00001eb189900" alt="" width="11" best-possible-match="TCAATAATTGA"/>
+<motif name="Zm00001eb343790" alt="" width="17" best-possible-match="GCGGCGGCGGCGGCGGC"/>
+<motif name="Zm00001eb421530" alt="" width="21" best-possible-match="TCCGCCGCCGCCACCGCCGCC"/>
+<motif name="Zm00001eb001990" alt="" width="13" best-possible-match="CTTGTATTTCACG"/>
+<motif name="Zm00001eb388050" alt="" width="10" best-possible-match="GTGACGTCAC"/>
+<motif name="Zm00001eb126140" alt="" width="11" best-possible-match="GCATTAATTAC"/>
+<motif name="Zm00001eb058850" alt="" width="21" best-possible-match="TGGCACAGTTCCCGAGGTGAA"/>
+<motif name="Zm00001eb194220" alt="" width="10" best-possible-match="CACCGACCAT"/>
+<motif name="Zm00001eb295830" alt="" width="10" best-possible-match="TTGTCGGAAA"/>
+<motif name="Zm00001eb364850" alt="" width="8" best-possible-match="CCACGTGC"/>
+<motif name="Zm00001eb197040" alt="" width="11" best-possible-match="GATGACGTCAT"/>
+<motif name="Zm00001eb424710" alt="" width="8" best-possible-match="CGGTCAAC"/>
+<motif name="Zm00001eb373300" alt="" width="18" best-possible-match="AAATGGTGACGTGGCAGT"/>
+<motif name="Zm00001eb015440" alt="" width="15" best-possible-match="GTCTAGATTCAATGA"/>
+<motif name="Zm00001eb391130" alt="" width="15" best-possible-match="ATAACCTTATCCATA"/>
+<motif name="Zm00001eb364120" alt="" width="9" best-possible-match="GGGGCCCAC"/>
+<motif name="Zm00001eb067270" alt="" width="10" best-possible-match="GCCGACAAAA"/>
+<motif name="Zm00001eb361400" alt="" width="15" best-possible-match="ATATACATGCATGCA"/>
+<motif name="Zm00001eb209880" alt="" width="10" best-possible-match="ATATTTACCG"/>
+<motif name="Zm00001eb248590" alt="" width="15" best-possible-match="AAGTTGGTAGGTGAG"/>
+<motif name="Zm00001eb319390" alt="" width="10" best-possible-match="AACCAATCAA"/>
+<motif name="Zm00001eb395320" alt="" width="11" best-possible-match="ACACGTAACTT"/>
+<motif name="Zm00001eb073550" alt="" width="15" best-possible-match="TCTTTGCCGACATCA"/>
+<motif name="Zm00001eb371070" alt="" width="11" best-possible-match="TCTAGATCTGT"/>
+<motif name="Zm00001eb312600" alt="" width="15" best-possible-match="TTCCCAACCACCAAC"/>
+<motif name="Zm00001eb255670" alt="" width="15" best-possible-match="ACTTTCCTTTTTTGG"/>
+<motif name="Zm00001eb425230" alt="" width="10" best-possible-match="TTAACCAGAG"/>
+<motif name="Zm00001eb067310" alt="" width="11" best-possible-match="TCATTCATTCA"/>
+<motif name="Zm00001eb136720" alt="" width="10" best-possible-match="AGTTAGGTAA"/>
+<motif name="Zm00001eb237820" alt="" width="13" best-possible-match="ATCGTTGACTTTT"/>
+<motif name="Zm00001eb337410" alt="" width="15" best-possible-match="AACCTTATCCATAAA"/>
+<motif name="Zm00001eb103740" alt="" width="15" best-possible-match="AATAAGTTTGGTAAA"/>
+<motif name="Zm00001eb307400" alt="" width="19" best-possible-match="TTTACGGTTATTTCCGTTA"/>
+<motif name="Zm00001eb265630" alt="" width="19" best-possible-match="CCTCCTCCTCCTCCTCCTC"/>
+<motif name="Zm00001eb410950" alt="" width="10" best-possible-match="AGTTAGGTAG"/>
+<motif name="Zm00001eb320950" alt="" width="15" best-possible-match="GCAGCAGCAGCAGCA"/>
+<motif name="Zm00001eb169470" alt="" width="13" best-possible-match="AAAAGTCAACGAC"/>
+<motif name="Zm00001eb315750" alt="" width="8" best-possible-match="TAATAATT"/>
+<motif name="Zm00001eb346880" alt="" width="13" best-possible-match="CTTTGACTTTTTT"/>
+<motif name="Zm00001eb249320" alt="" width="15" best-possible-match="CCACCGCCGCCGCCA"/>
+<motif name="Zm00001eb274210" alt="" width="9" best-possible-match="TAGATATTT"/>
+<motif name="Zm00001eb226740" alt="" width="15" best-possible-match="TCATCATCATCATCA"/>
+<motif name="Zm00001eb157260" alt="" width="15" best-possible-match="CTTCTTCTTCACGCT"/>
+<motif name="Zm00001eb307600" alt="" width="10" best-possible-match="CCGCCGCCAT"/>
+<motif name="Zm00001eb102440" alt="" width="11" best-possible-match="ATTGTACGGAT"/>
+<motif name="Zm00001eb107800" alt="" width="21" best-possible-match="AAACCAATAATTGAAAATTAT"/>
+<motif name="Zm00001eb309360" alt="" width="8" best-possible-match="AGAATCTG"/>
+<motif name="Zm00001eb059460" alt="" width="8" best-possible-match="TCACGTGG"/>
+<motif name="Zm00001eb030510" alt="" width="21" best-possible-match="TTTACGTTTTTGGCGGGAAAA"/>
+<motif name="Zm00001eb352570" alt="" width="8" best-possible-match="CGCCGCCA"/>
+<motif name="Zm00001eb322280" alt="" width="10" best-possible-match="TTGTACGGAC"/>
+<motif name="Zm00001eb362240" alt="" width="14" best-possible-match="GTAAGATTCGCTGA"/>
+<motif name="Zm00001eb173840" alt="" width="17" best-possible-match="TAACGTAAAATTCAAGC"/>
+<motif name="Zm00001eb149680" alt="" width="10" best-possible-match="TATCAATCAA"/>
+<motif name="Zm00001eb208910" alt="" width="15" best-possible-match="TCACACGTGTGAACT"/>
+<motif name="Zm00001eb186490" alt="" width="15" best-possible-match="AATTGTCGGTGGAGT"/>
+<motif name="Zm00001eb133640" alt="" width="15" best-possible-match="AATGGTCACGTGGCA"/>
+<motif name="Zm00001eb191170" alt="" width="15" best-possible-match="CCGGAAAATCCGGAG"/>
+<motif name="GRMZM2G075956" alt="" width="15" best-possible-match="ACCTTCCCCAGATAA"/>
+<motif name="Zm00001eb339360" alt="" width="8" best-possible-match="GCACGTGC"/>
+<motif name="Zm00001eb234870" alt="" width="15" best-possible-match="TGGCGGCGGCGGTGG"/>
+<motif name="Zm00001eb148320" alt="" width="15" best-possible-match="AAAATATGACCGTTG"/>
+<motif name="Zm00001eb024300" alt="" width="15" best-possible-match="TACTTGAAGATGAAG"/>
+<motif name="Zm00001eb014420" alt="" width="10" best-possible-match="TTACCTACCG"/>
+<motif name="Zm00001eb130180" alt="" width="10" best-possible-match="AGTGACGGCA"/>
+<motif name="Zm00001eb118900" alt="" width="10" best-possible-match="GAGAATCTGT"/>
+<motif name="Zm00001eb315910" alt="" width="15" best-possible-match="CACGTGACTTTCACG"/>
+<motif name="Zm00001eb142960" alt="" width="21" best-possible-match="AAAAAAGCATGTGGGACCCAC"/>
+<motif name="Zm00001eb149370" alt="" width="17" best-possible-match="CGGCGGAAATTGCGGCG"/>
+<motif name="Zm00001eb286280" alt="" width="10" best-possible-match="CGGTGCCCCC"/>
+<motif name="Zm00001eb062660" alt="" width="15" best-possible-match="TTTTTTTACTTTTTG"/>
+<motif name="Zm00001eb218710" alt="" width="9" best-possible-match="TTTAGGTTG"/>
+<motif name="Zm00001eb247570" alt="" width="21" best-possible-match="CTCCAAAATCTCCACCAACCA"/>
+<motif name="Zm00001eb335060" alt="" width="15" best-possible-match="AAAAAAGTTAGGTAG"/>
+<motif name="Zm00001eb193060" alt="" width="14" best-possible-match="ATGGACGGTGGAGG"/>
+<motif name="Zm00001eb139970" alt="" width="13" best-possible-match="TGATGTCGGCGAA"/>
+<motif name="Zm00001eb430240" alt="" width="19" best-possible-match="TATTGACCGGCGGTCAATA"/>
+<motif name="Zm00001eb082040" alt="" width="21" best-possible-match="GGTAACGTAAAATACAAGCAA"/>
+<motif name="Zm00001eb009140" alt="" width="10" best-possible-match="GCGAATCTTT"/>
+<motif name="Zm00001eb254560" alt="" width="18" best-possible-match="TGCCGTGATCTTCACGTT"/>
+<motif name="Zm00001eb274800" alt="" width="16" best-possible-match="TTTTTTGTACCTTATT"/>
+<motif name="Zm00001eb400130" alt="" width="8" best-possible-match="TATGATTA"/>
+<motif name="Zm00001eb325550" alt="" width="20" best-possible-match="CCACACGTGCGACTTTTTTT"/>
+<motif name="Zm00001eb086280" alt="" width="14" best-possible-match="AGCGTTGACTTTTT"/>
+<motif name="Zm00001eb383230" alt="" width="21" best-possible-match="GGTAGCGTGAAATTCAAGCAA"/>
+<motif name="Zm00001eb370470" alt="" width="10" best-possible-match="AATTTGAATT"/>
+<motif name="Zm00001eb239380" alt="" width="11" best-possible-match="CTAGAAGCTTC"/>
+<motif name="Zm00001eb037480" alt="" width="21" best-possible-match="CCATTTGCCGTGGGTCCCACC"/>
+<motif name="Zm00001eb155280" alt="" width="10" best-possible-match="AACCCTAGAT"/>
+<motif name="Zm00001eb201930" alt="" width="19" best-possible-match="CTTTTCCAACCACCTTTTT"/>
+<motif name="Zm00001eb349730" alt="" width="10" best-possible-match="CCGTACGGCA"/>
+<motif name="Zm00001eb145660" alt="" width="14" best-possible-match="CCAAAAAAGGAAAA"/>
+<motif name="Zm00001eb010570" alt="" width="19" best-possible-match="TTTCCTCCGGATTTTCCGG"/>
+<motif name="Zm00001eb371350" alt="" width="14" best-possible-match="TCGTTGACTTTTTT"/>
+<motif name="Zm00001eb192320" alt="" width="19" best-possible-match="CGGAGGTGGCGGCGGAGGA"/>
+<motif name="Zm00001eb213710" alt="" width="20" best-possible-match="TGCCGTGATATCTACGCTAC"/>
+<motif name="Zm00001eb105640" alt="" width="12" best-possible-match="AATTGTACGGAC"/>
+<motif name="Zm00001eb064860" alt="" width="12" best-possible-match="GAAGCTTCTAGA"/>
+<motif name="Zm00001eb145160" alt="" width="21" best-possible-match="TCTCCGCCGCCTTCTCCGCCG"/>
+<motif name="Zm00001eb378270" alt="" width="21" best-possible-match="CTCTCTCTCTCTCTCTCTCTC"/>
+<motif name="Zm00001eb292690" alt="" width="8" best-possible-match="GGGACCAC"/>
+<motif name="Zm00001eb234120" alt="" width="15" best-possible-match="AACGTTGACTTTTTT"/>
+<motif name="Zm00001eb157620" alt="" width="13" best-possible-match="TCGATCGGATTAG"/>
+<motif name="Zm00001eb058460" alt="" width="11" best-possible-match="AAAAAGATTCC"/>
+<motif name="Zm00001eb369280" alt="" width="20" best-possible-match="AATGACGTCATCATTATTGT"/>
+<motif name="Zm00001eb175840" alt="" width="12" best-possible-match="TAACACGCCACA"/>
+<motif name="Zm00001eb301280" alt="" width="15" best-possible-match="AGAAGCTTCTAGAAG"/>
+<motif name="Zm00001eb193330" alt="" width="11" best-possible-match="GCATTAAATGC"/>
+<motif name="Zm00001eb285050" alt="" width="12" best-possible-match="AGCGTTGACTTT"/>
+<motif name="Zm00001eb417620" alt="" width="15" best-possible-match="TCCACCTACCACCAC"/>
+<motif name="Zm00001eb102450" alt="" width="13" best-possible-match="CCAAAAATGGAAA"/>
+<motif name="Zm00001eb014280" alt="" width="9" best-possible-match="ACCTACCCG"/>
+<motif name="Zm00001eb069140" alt="" width="15" best-possible-match="AATGATGACGTCATC"/>
+<motif name="Zm00001eb348490" alt="" width="8" best-possible-match="ACACGTGT"/>
+<motif name="Zm00001eb143690" alt="" width="9" best-possible-match="CTGCATGCA"/>
+<motif name="Zm00001eb353480" alt="" width="13" best-possible-match="GATCCAGATCTAA"/>
+<motif name="Zm00001eb058930" alt="" width="8" best-possible-match="GCTGTCAC"/>
+<motif name="Zm00001eb235510" alt="" width="15" best-possible-match="AATGATGACGTGGCC"/>
+<motif name="Zm00001eb250560" alt="" width="10" best-possible-match="ATGCCGACAT"/>
+<motif name="Zm00001eb061300" alt="" width="21" best-possible-match="GAGGTGGCACGTGGCATTCAC"/>
+<motif name="Zm00001eb100800" alt="" width="15" best-possible-match="GAAATTGCGGCGGCG"/>
+<motif name="Zm00001eb211350" alt="" width="9" best-possible-match="TTGTACGGA"/>
+<motif name="Zm00001eb362090" alt="" width="27" best-possible-match="CATCATCATCATCATCATCATCATCAT"/>
+<motif name="Zm00001eb272490" alt="" width="15" best-possible-match="TTCCAAAAATGGAAA"/>
+<motif name="Zm00001eb150140" alt="" width="13" best-possible-match="ACCGTAACCGTAA"/>
+<motif name="Zm00001eb005440" alt="" width="11" best-possible-match="TCAATAATTAA"/>
+<motif name="Zm00001eb252220" alt="" width="21" best-possible-match="AAAAAAAAGAAAAAGTAAAAA"/>
+<motif name="Zm00001eb119540" alt="" width="21" best-possible-match="CCTCCGCCGCCGCCGCCGCCG"/>
+<motif name="Zm00001eb279580" alt="" width="20" best-possible-match="ACAGAGGATGTGGGACCCAC"/>
+<motif name="Zm00001eb317460" alt="" width="8" best-possible-match="CCACGTGC"/>
+<motif name="Zm00001eb054480" alt="" width="20" best-possible-match="AAGAAAAAGACAAAAAAAAA"/>
+<motif name="Zm00001eb234690" alt="" width="10" best-possible-match="TGACCGGTAT"/>
+<motif name="Zm00001eb429730" alt="" width="8" best-possible-match="TCCGTACA"/>
+<motif name="Zm00001eb330680" alt="" width="11" best-possible-match="ACCAGCTGTCA"/>
+<motif name="Zm00001eb066260" alt="" width="13" best-possible-match="AATATGGATAAGG"/>
+<motif name="Zm00001eb323880" alt="" width="9" best-possible-match="GCCACTTGC"/>
+<motif name="Zm00001eb301170" alt="" width="13" best-possible-match="AAAAATTTTAAAA"/>
+<motif name="Zm00001eb063390" alt="" width="8" best-possible-match="TGTACGGT"/>
+<motif name="Zm00001eb406610" alt="" width="11" best-possible-match="GGAATCTTCTA"/>
+<motif name="Zm00001eb150010" alt="" width="15" best-possible-match="AATGGACACGTGGCA"/>
+<motif name="Zm00001eb395380" alt="" width="19" best-possible-match="TAACGTGTAGAACAAGTAA"/>
+<motif name="Zm00001eb255300" alt="" width="21" best-possible-match="TTGTTTAAGGTAGGTGAACAA"/>
+<motif name="Zm00001eb155410" alt="" width="8" best-possible-match="GCACGTGC"/>
+<motif name="Zm00001eb395430" alt="" width="11" best-possible-match="AGTTAATTAAT"/>
+<motif name="Zm00001eb005380" alt="" width="10" best-possible-match="AAAAAAGTGA"/>
+<motif name="Zm00001eb180800" alt="" width="18" best-possible-match="TAAAAAATATACCCTAAA"/>
+<motif name="Zm00001eb282840" alt="" width="13" best-possible-match="CTTTGACTTTTTT"/>
+<motif name="Zm00001eb174990" alt="" width="24" best-possible-match="GAGAGAGAGAGAGAGAGAGAGAGA"/>
+<motif name="Zm00001eb037600" alt="" width="14" best-possible-match="TTCTAGAAGCTTCT"/>
+<motif name="Zm00001eb050790" alt="" width="14" best-possible-match="AGAAGGTCACGTGG"/>
+<motif name="Zm00001eb121380" alt="" width="15" best-possible-match="AGCGTGAAGAAGAAG"/>
+<motif name="Zm00001eb152350" alt="" width="8" best-possible-match="GGGACCAC"/>
+<motif name="Zm00001eb035370" alt="" width="11" best-possible-match="TCCGTACAATT"/>
+<motif name="Zm00001eb156040" alt="" width="8" best-possible-match="TATGTTGC"/>
+<motif name="Zm00001eb008010" alt="" width="17" best-possible-match="AAGAAAACGACAAAAAA"/>
+<motif name="Zm00001eb403750" alt="" width="21" best-possible-match="TTTTTTTTTTTTTTTTTTTTT"/>
+<motif name="Zm00001eb321920" alt="" width="21" best-possible-match="GTAGTGGTAATGTTAGGTGGA"/>
+<motif name="Zm00001eb424660" alt="" width="15" best-possible-match="AAAAATTAGGTGAAA"/>
+<motif name="Zm00001eb309370" alt="" width="13" best-possible-match="AAAAGAATATTCC"/>
+<motif name="Zm00001eb144290" alt="" width="10" best-possible-match="AAAGATACGG"/>
+<motif name="Zm00001eb248270" alt="" width="10" best-possible-match="GTGGGCCCAC"/>
+<motif name="Zm00001eb075510" alt="" width="15" best-possible-match="CGTAAAAAACAAGCA"/>
+<motif name="GRMZM2G179677" alt="" width="17" best-possible-match="CACAAAACGACAAAAAA"/>
+<motif name="Zm00001eb324550" alt="" width="17" best-possible-match="CTTGTTCCACAAGAAAC"/>
+<motif name="Zm00001eb272570" alt="" width="15" best-possible-match="CCGAAAAAATCGGAG"/>
+<motif name="Zm00001eb375580" alt="" width="17" best-possible-match="AATTGTCGGTGGTGGCA"/>
+<motif name="Zm00001eb114530" alt="" width="8" best-possible-match="GCACGTGC"/>
+<motif name="Zm00001eb330200" alt="" width="15" best-possible-match="CCGCCGCCGCCGCCA"/>
+<motif name="Zm00001eb316740" alt="" width="11" best-possible-match="ATTGTACGGAT"/>
+<motif name="Zm00001eb150840" alt="" width="21" best-possible-match="CGGCGGCGGTGGCGGCGGCGG"/>
+<motif name="Zm00001eb296770" alt="" width="11" best-possible-match="CAGATCGGATT"/>
+<motif name="Zm00001eb223920" alt="" width="9" best-possible-match="CCGCGTTAC"/>
+<motif name="Zm00001eb122550" alt="" width="11" best-possible-match="AGAATATTCCA"/>
+<motif name="Zm00001eb099470" alt="" width="10" best-possible-match="CGCACGTGCG"/>
+<motif name="Zm00001eb338060" alt="" width="19" best-possible-match="TTTTTTCCATTTTTGGTAA"/>
+<motif name="Zm00001eb209070" alt="" width="15" best-possible-match="TGCCACGTCAGCATC"/>
+<motif name="Zm00001eb073560" alt="" width="15" best-possible-match="TTTTGTCGGCAAAGG"/>
+<motif name="Zm00001eb402040" alt="" width="11" best-possible-match="CCGCCACCGCC"/>
+<motif name="Zm00001eb186280" alt="" width="10" best-possible-match="CCGTTGACCG"/>
+<motif name="Zm00001eb170540" alt="" width="10" best-possible-match="ATCCGACAAA"/>
+<motif name="Zm00001eb254070" alt="" width="21" best-possible-match="AAAAAAATTTTCCCGCCAAAA"/>
+<motif name="Zm00001eb065180" alt="" width="28" best-possible-match="CCGCCTCCGCCGCCACCACCGCCGCCGC"/>
+<motif name="Zm00001eb149600" alt="" width="8" best-possible-match="CGGTCAAC"/>
+<motif name="Zm00001eb332400" alt="" width="10" best-possible-match="AGCCACGTGA"/>
+<motif name="Zm00001eb253280" alt="" width="14" best-possible-match="CAAAAAGTTAAAAA"/>
+<motif name="Zm00001eb325760" alt="" width="13" best-possible-match="AACGTTGACTATT"/>
+<motif name="Zm00001eb001460" alt="" width="16" best-possible-match="CTTGTTCTACAAGTAA"/>
+<motif name="Zm00001eb220250" alt="" width="14" best-possible-match="TTTTTTACCGTTTT"/>
+<motif name="Zm00001eb041450" alt="" width="13" best-possible-match="TTAATTACCGTTA"/>
+<motif name="Zm00001eb035180" alt="" width="18" best-possible-match="ACGTGTAAAACAAGCAAC"/>
+<motif name="Zm00001eb231360" alt="" width="15" best-possible-match="GATGCTGACGTGGCA"/>
+<motif name="Zm00001eb259370" alt="" width="11" best-possible-match="GTGGGACCCAC"/>
+<motif name="Zm00001eb343960" alt="" width="21" best-possible-match="TTTTAATTAGCGTTGACTTTT"/>
+<motif name="Zm00001eb350280" alt="" width="11" best-possible-match="AAAAGTCAACG"/>
+<motif name="Zm00001eb296020" alt="" width="11" best-possible-match="AAAAGTCAACG"/>
+<motif name="Zm00001eb216040" alt="" width="11" best-possible-match="CTTTACCGTTA"/>
+<motif name="Zm00001eb288420" alt="" width="21" best-possible-match="GGTAACTTGCTGAACAAGTTA"/>
+<motif name="Zm00001eb238710" alt="" width="11" best-possible-match="AAAAGAATGTT"/>
+<motif name="Zm00001eb028430" alt="" width="15" best-possible-match="GATGCTGACGTGGCA"/>
+<motif name="Zm00001eb214750" alt="" width="12" best-possible-match="CCAAAAATGGAA"/>
+<motif name="Zm00001eb384820" alt="" width="11" best-possible-match="CGCACGTGTGG"/>
+<motif name="Zm00001eb145340" alt="" width="19" best-possible-match="CCTGTTTTACACGGCATCT"/>
+<motif name="Zm00001eb092090" alt="" width="12" best-possible-match="TTGACAGCTGTA"/>
+<motif name="Zm00001eb251530" alt="" width="13" best-possible-match="AAAAGTCAACGAT"/>
+<motif name="GRMZM5G833032" alt="" width="12" best-possible-match="AGATATTTTTTT"/>
+<motif name="Zm00001eb187820" alt="" width="21" best-possible-match="CAACTACTCCACCAACCCCCA"/>
+<motif name="Zm00001eb219630" alt="" width="6" best-possible-match="TGGTGA"/>
+<motif name="Zm00001eb062460" alt="" width="10" best-possible-match="ACCTCGTACC"/>
+<motif name="Zm00001eb060990" alt="" width="15" best-possible-match="AAAATGTAACGGATA"/>
+<motif name="Zm00001eb058610" alt="" width="8" best-possible-match="GAATATTC"/>
+<background source="--nrdb--">
+<value letter="A">0.275</value>
+<value letter="C">0.225</value>
+<value letter="G">0.225</value>
+<value letter="T">0.275</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>
